@@ -1,6 +1,6 @@
-a=int(input())
-b=int(input())
-c=int(input())
+a=input()
+b=input()
+c=input()
 if b<=a and c<=a:
     print(a)
 elif a<=b and c<=b:
