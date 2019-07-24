@@ -4,6 +4,7 @@ for i in range(1,len(s)):
     if(s[i]!=" "):
         print(s[i].lower(),end="")
     else:
+        print(s[i])
         print(s[i+1].upper(),end="")
         
     
