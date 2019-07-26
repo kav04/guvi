@@ -11,7 +11,13 @@ def func():
         for j in range(k,num):
             if lst[i]==lst[j] and lst[i] not in repeat :
                 repeat.append(lst[i])
+            else:
+                return "unique"
     return repeat
 op=func()
-print (" ".join(op))
+if op=="unique":
+    print("unique")
+else:
+    print (" ".join(op))
+
     
