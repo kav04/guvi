@@ -1,3 +1,3 @@
 word=input()
-l=len(word)
-print(word[-1:-(l+1):-1])
+a=len(word)
+print(word[-1:-(a+1):-1])
