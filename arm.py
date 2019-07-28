@@ -1,0 +1,11 @@
+np=int(input())
+a=np
+s=0
+while(np!=0): 
+    temp=np%10 
+    s=s+temp*temp*temp
+    np=int(np/10) 
+if(s==a): 
+    print("yes")
+else: 
+    print("no") 
