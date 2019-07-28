@@ -1,5 +1,5 @@
 np=int(input())
-mp=[]*n
+mp=[]*np
 for i in range(0,2**np): 
     k=[] 
     for j in range(np-1,0,-1):
