@@ -12,4 +12,5 @@ for i in range(2,a):
         for m in range(len(k)): 
             l.append(k[m]) 
         if(l[-1]=='3'): 
-            s=s+iprint(s)
+            s=s+i
+            print(s)
