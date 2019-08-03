@@ -5,11 +5,11 @@ def func(s,ind):
             sum=sum+int(lst[i])
         return sum
 size=int(input())
+index=int(input()) 
 lst=[]
 for x in range(0,size):
     num=int(input()) 
     lst.append(num)
-index=int(input()) 
 op=func(size,index)
 print(op)
     
