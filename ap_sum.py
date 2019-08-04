@@ -1,0 +1,5 @@
+N=int(input())
+A=int(input())
+D=int(input())
+sum=(N/2)*(2*A+((N-1)*D))
+print(int(sum))
