@@ -1,5 +1,5 @@
-n1=int(input())
-n2=int(input())
+n1=input()
+n2=input()
 temp=n2
 n2=n1
 n1=temp
