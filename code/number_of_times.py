@@ -1,4 +1,4 @@
-n=input()
+s=input()
 num=int(input())
 for i in range(num):
-    print(n)
+    print(s)
