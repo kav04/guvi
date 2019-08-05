@@ -1,5 +1,4 @@
-n=int(input())
-c=int(input())
+n,c=[int(n) for n in input().split()]
 st=str(n)
 count=0
 for i in range(0,len(st)):
