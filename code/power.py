@@ -1,0 +1,10 @@
+s=int(input())
+flag=0
+while(s!=0):
+    s=s/2
+    if(s==2):
+        flag=1
+if(flag==1):
+    print("yes")
+else:
+    print("no")
