@@ -1,0 +1,9 @@
+s=int(input())
+i=0
+count=0
+while(i<=s):
+    y=s-(2*i)
+    if(y>=0):
+        count=count+1
+    i=i+1
+print(count)
