@@ -1,12 +1,8 @@
-n=input()
-op="" 
-for i in range(0,len(n)):
-    if(n[i]==" "):
-        r=list(op)
-        r.reverse()
-        res="".join(r)
-        print(res,end=" ")
-        op=""
-    else:
-        op=op+n[i]
-   
+s=input()
+sp=s.split()
+for i in range(0,len(sp)):
+    n=sp[i] 
+    res=list(n)
+    res.reverse()
+    x="".join(res)
+    print(x,end=" ")
