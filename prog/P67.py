@@ -1,3 +1,4 @@
 import math
 w=int(input())
-print(math.factorial(w))
+x=math.factorial(w)
+print(x) 
