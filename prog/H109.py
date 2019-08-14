@@ -1,4 +1,8 @@
 n=int(input())
 l=input().split()
+a=[]
 for i in range(len(l)):
-    print(l[i].lower())
+    l[i].lower()
+    a.append(l[i])
+a.sort()
+print(*a,end=" ")
