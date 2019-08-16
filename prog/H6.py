@@ -7,5 +7,6 @@ def func():
             a.append(l[i])
         else:
             print(l[i])
-            break
+            return
+    print("unique")
 op=func()
