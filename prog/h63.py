@@ -4,7 +4,7 @@ def func():
     a=[]
     for i in range(n-1):
         max=l[i+1]
-        for j in range(i+1,n-1):
+        for j in range(i+1,n):
             if(max<=l[j]):
                 max=l[j]
         a.append(max)
